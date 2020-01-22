@@ -1,34 +1,34 @@
 [
     {
         "id": 1,
-        "image": ""
+        "image": "/assets/img/Apu1.gif"
     },
     {
         "id": 2,
-        "image": ""
+        "image": "/assets/img/Barney1.gif"
     },
     {
         "id": 3,
-        "image": ""
+        "image": "/assets/img/Grampa2.gif"
     },
     {
         "id": 4,
-        "image": ""
+        "image": "/assets/img/Kearney.gif"
     },
     {
-        "id": 1,
-        "image": ""
+        "id": 5,
+        "image": "/assets/img/Milhouse1.gif"
     },
     {
-        "id": 1,
-        "image": ""
+        "id": 6,
+        "image": "/assets/img/MoeSzyslak4.gif"
     },
     {
-        "id": 1,
-        "image": ""
+        "id": 7,
+        "image": "/assets/img/MrBurns1.gif"
     },
     {
-        "id": 1,
-        "image": ""
+        "id": 8,
+        "image": "/assets/img/NelsonHaha.gif"
     }
 ]
