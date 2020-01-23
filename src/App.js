@@ -1,8 +1,22 @@
-import React from 'react';
+import React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Game from  "./pages/Game"
+import Header from "./components/header";
+import Footer from "./components/footer";
+import "./App.css";
+import Wrapper from "./components/wrapper";
 
 function App() {
   return (
-    <h1>Test</h1>
+    <Router>
+      <div className="Site">
+        <Header /> 
+        <Wrapper>
+          <Route exact path="/" component={Game} />
+        </Wrapper>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
