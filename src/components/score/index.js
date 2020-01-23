@@ -3,7 +3,7 @@ import "./style.css";
 
 function Score(props) {
     return(
-        <div class="game-score brand-logo right">Score: {props.total}</div>
+        <div className="game-score brand-logo right">Score: {props.total}</div>
     );
 }
 
