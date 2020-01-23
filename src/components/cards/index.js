@@ -6,7 +6,7 @@ function Card(props) {
         <div class="col s12 m6 l3">
             <div class="card sticky-action z-depth-3">
                 <div class="card-image">
-                    <img src="http://www.simpsoncrazy.com/content/pictures/regulars/Grampa2.gif" alt="Grampa" />    
+                    <img src={props.image} alt={props.name} id={props.id} />    
                 </div>
             </div>
         </div>
