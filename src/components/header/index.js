@@ -6,9 +6,9 @@ function Header(props){
             <div className="navbar-fixed">
                 <nav className="navbar yellow accent-4">
                     <div className="nav-wrapper">
-                        <div class="brand-logo Left">Simpsons Clicky Game!</div>
-                        <div class="brand-logo center">{props.status}</div>
-                        <div class="brand-logo right">Score: {props.total}</div>
+                        <div className="brand-logo Left">Simpsons Clicky Game!</div>
+                        <div className="brand-logo center">{props.status}</div>
+                        <div className="brand-logo right">Score: {props.total}</div>
                     </div>
                 </nav>
             </div>
