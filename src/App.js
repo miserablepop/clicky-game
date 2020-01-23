@@ -14,7 +14,7 @@ class App extends Component {
       clickedCharacterIds: [],
       score: 0,
       goal: 8,
-      status: ""
+      status: "Click an image to begin!"
     };
 
     shuffleCard = id => {
@@ -27,11 +27,11 @@ class App extends Component {
             clickedCharacterIds.push(id)
 
             if(clickedCharacterIds.length === 8){
-                this.setState({score: 8, status: "You Won! Great Job, Smartie! Click to play again!", clickedCharacterIds: []});
+                this.setState({score: 8, status: "You Won! Click to play again!", clickedCharacterIds: []});
                 console.log('You Win');
                 return;
             }
-            this.setState({ Characters, clickedCharacterIds, score: clickedCharacterIds.length, status: " " });
+            this.setState({ Characters, clickedCharacterIds, score: clickedCharacterIds.length, status: "Good Choice!" });
 
             for (let i = Characters.length - 1; i > 0; i--) {
                 let j = Math.floor(Math.random() * (i + 1));
@@ -44,7 +44,10 @@ class App extends Component {
   return (
     <Router>
       <div className="Site">
-        <Header /> 
+        <Header 
+          total={this.state.score}
+          status={this.state.status}
+        /> 
         <Wrapper>
           <div className="game-board">
               <div className="row">

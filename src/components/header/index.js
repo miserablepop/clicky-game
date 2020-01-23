@@ -1,11 +1,17 @@
 import React from "react";
-import Navbar from "../navbar";
-import "./style.css";
 
 function Header(props){
     return (
         <header className="header" {...props}> 
-            <Navbar />
+            <div className="navbar-fixed">
+                <nav className="navbar yellow accent-4">
+                    <div className="nav-wrapper">
+                        <div class="brand-logo Left">Simpsons Clicky Game!</div>
+                        <div class="brand-logo center">{props.status}</div>
+                        <div class="brand-logo right">Score: {props.total}</div>
+                    </div>
+                </nav>
+            </div>
         </header>
     );
 }
