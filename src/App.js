@@ -42,7 +42,7 @@ class App extends Component {
 
  render() {
   return (
-    <Router>
+    <Router basename="/clicky-game">
       <div className="Site">
         <Header 
           total={this.state.score}
