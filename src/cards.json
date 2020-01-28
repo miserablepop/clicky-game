@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image": "./assets/img/Apu1.gif"
+        "image": "/assets/img/Apu1.gif"
     },
     {
         "id": 2,
